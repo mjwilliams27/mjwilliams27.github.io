@@ -1,13 +1,14 @@
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 760px;
   }
 header {
     background-color: #4d1979;
     color: white;
     border-radius: 20px;
+    padding: 1em;
 }
 header img {
-    max-width: 50%;
     float: right;
 }
 main {
@@ -23,11 +24,12 @@ ul li {
 }
 ul li a {
     display: block;
-    padding: .5rem 1rem;
+    padding: .5em 1em;
 }
 footer {
     background-color: #4d1979;
     color: white;
     text-align: center;
     border-radius: 20px;
+    padding: 1em;
 }
