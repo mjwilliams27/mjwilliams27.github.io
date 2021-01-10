@@ -1,6 +1,7 @@
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     max-width: 760px;
+    margin: 0 auto;
   }
 header {
     background-color: #4d1979;
@@ -22,7 +23,7 @@ h1 {
     border-radius: 10px;
 }
 ul li {
-    list-style: none;
+    list-style: ;
 }
 ul li a {
     display: block;
