@@ -1,0 +1,17 @@
+h1 {
+    color: #000382
+}
+ul li {
+    float: left;
+}
+ul li a {
+    display: block;
+    padding: .rem 1rem;
+    background-color: #000000;
+}
+img {
+    float: right;
+}
+footer {
+    text-align: center;
+}
