@@ -23,13 +23,6 @@ h1 {
     padding: 1em;
     border-radius: 10px;
 }
-ul li {
-    list-style: ;
-}
-ul li a {
-    display: block;
-    padding: .5em 1em;
-}
 footer {
     background-color: #4d1979;
     color: white;
