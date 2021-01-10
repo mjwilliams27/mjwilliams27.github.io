@@ -1,8 +1,17 @@
+header {
+    background-color: #4d1979;
+    color: white;
+}
+main {
+    background-color: white;
+    color: #4d1979;
+}
 h1 {
-    color: #000382
+    background-color: #4d1979;
+    color: white;
 }
 ul li {
-    float: left;
+    
 }
 ul li a {
     display: block;
@@ -13,5 +22,7 @@ img {
     float: right;
 }
 footer {
+    background-color: #4d1979;
+    color: white;
     text-align: center;
 }
