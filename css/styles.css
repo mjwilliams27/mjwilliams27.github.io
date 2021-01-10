@@ -9,9 +9,9 @@ header {
     border-radius: 10px;
     padding: 1em;
 }
-header img {
+img {
     float: right;
-    width: 10%;
+    width: 150px;
 }
 main {
     background-color: white;
