@@ -1,32 +1,43 @@
 body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    max-width: 760px;
+    font-family: 'Roboto', sans-serif;
     margin: 0 auto;
+    max-width: 760px;
   }
-header {
-    background-color: #4d1979;
-    color: white;
-    border-radius: 10px;
-    padding: 1em;
-}
-img {
-    float: right;
-    width: 150px;
-}
-main {
-    background-color: white;
-    color: #4d1979;
-}
-h1 {
+  
+  h1 {
+    font-family: 'Yusei Magic', sans-serif;
     background-color: #4d1979;
     color: white;
     padding: 1em;
     border-radius: 10px;
-}
-footer {
-    background-color: #4d1979;
+  }
+  
+  header {
+      background-color: #4d1979;
+      color: white;
+      border-radius: 10px;
+      padding: 1em;
+  }
+  
+  img {
+      float: right;
+      width: 250px;
+      margin-top: -150px;
+  }
+  
+  main {
+      background-color: white;
+      color: #4d1979;
+  }
+  
+  footer {
+      background-color: #4d1979;
+      color: white;
+      text-align: center;
+      border-radius: 10px;
+      padding: 1em;
+  }
+  
+  footer p a {
     color: white;
-    text-align: center;
-    border-radius: 10px;
-    padding: 1em;
-}
+  }  
