@@ -24,7 +24,6 @@ main {
 .part1, .part2, .part3 {
     background-color: #f5eefc;
     margin: 1em;
-    border: black;
     border-radius: 20px;
 }
 
@@ -37,6 +36,7 @@ h3 {
 
 p {
     font-family: 'Poppins', sans-serif;
+    padding: 1em;
 }
 
 img {
