@@ -38,5 +38,6 @@ p {
 }
 
 img {
-    max-width: 75%;
+    max-width: 80%;
+    align-items: center;
 }
