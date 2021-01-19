@@ -5,15 +5,18 @@ body {
 header {
     background-color: #2b0e44;
     color: white;
+    padding: 1em;
 }
 
 h1, h2 {
     font-family: 'Yusei Magic', sans-serif;
+    text-align: center;
 }
 
 main {
     display: grid;
     grid-template-columns: 1fr;
+    padding: 1em;
 }
 
 .part1, .part2, .part3 {
@@ -25,6 +28,7 @@ h3 {
     font-family: 'Yusei Magic', sans-serif;
     background-color: #4d1979;
     color: white;
+    padding: 1em;
 }
 
 p {
