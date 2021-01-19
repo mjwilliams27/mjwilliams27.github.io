@@ -2,3 +2,15 @@ main {
     display: grid;
     grid-template-columns: 1fr;
 }
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+h3 {
+    font-family: 'Yusei Magic', sans-serif;
+}
