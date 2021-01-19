@@ -35,3 +35,7 @@ h3 {
 p {
     font-family: 'Poppins', sans-serif;
 }
+
+img {
+    max-width: 75%;
+}
