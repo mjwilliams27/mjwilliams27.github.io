@@ -24,6 +24,8 @@ main {
 .part1, .part2, .part3 {
     background-color: #f5eefc;
     padding: 1em;
+    border: black;
+    border-radius: 20px;
 }
 
 h3 {
