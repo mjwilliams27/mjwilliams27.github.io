@@ -16,6 +16,7 @@ body {
 header {
     padding: .5rem 2%;
     background-color: #2e1760;
+    color: white;
 }
 header img {float: left; margin-right: 10px; width: 50px;}
 header h1 {margin: 0; font-size: 1.3rem;}
@@ -59,6 +60,7 @@ main {
 /*----------- FOOTER --------------*/
 footer {
     background-color: #2e1760;
+    color: white;
     padding: .5rem 2%;
     text-align: center;
 }
