@@ -51,7 +51,7 @@ main {
     min-height: 10rem;
 }
 
-p.typography {
+.typography {
     font-family: 'Secular One', sans-serif;
 }
 
