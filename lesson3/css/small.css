@@ -51,6 +51,10 @@ main {
     min-height: 10rem;
 }
 
+p.typography {
+    font-family: 'Secular One', sans-serif;
+}
+
 footer {
     background-color: #2e1760;
     color: white;
