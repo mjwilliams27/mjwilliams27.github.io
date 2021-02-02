@@ -10,7 +10,7 @@ body {
 header {
     padding: .5rem 2%;
     background-color: #7180b9;
-    color: white;
+    color: black;
 }
 
 header img {float: left; margin-right: 10px; width: 50px;}
@@ -29,7 +29,7 @@ nav ul {
 
 nav ul li a {
     display: block;
-    color: #eee;
+    color: black;
     padding: .5rem 0;
     text-decoration: none;
     font-size: .9rem;
@@ -61,7 +61,7 @@ main {
 
 footer {
     background-color: #7180b9;
-    color: white;
+    color: black;
     padding: .5rem 2%;
     text-align: center;
 }
