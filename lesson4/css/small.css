@@ -57,6 +57,17 @@ body {
     font-size: 16px;
 }
 
+.contentbox {
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed #000;
+    padding: 15px;
+    background-color: #ebebeb;
+    color: black;
+    font-style: italic;
+    font-family: 'Secular One', sans-serif;
+}
+
 .show {
     display: none;
 }
