@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Preston Town Page">
+<meta name="author" content="Margaret Williams">
+
+<!-- This start file was build by Paul Cheney  -->
+<title>Preston Town Page</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+
+
+     
+</head>
+<body>
+<!-- HEADER HERE -->
+	<header>
+        <img class="logo" src="images/iconfinder_Anchor_boat_anchor_nautical_navigational_sea_4908117.png" alt="Drift Weather anchor logo">
+        <h1>Drift Weather</h1>
+        <h2>We bring weather to life</h2>
+    </header>
+    
+    
+<!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li> 
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>  
+        </ul>
+    </nav>
+    
+    
+<!-- CONTENT HERE -->
+    <main>
+        <h1>Preston Idaho</h1>
+        <div class="contentbox"><h3>Weather Summary</h3></div>
+        <div class="contentbox"><h3>Five Day Forecast</h3></div>
+        <div class="contentbox"><h3>Article Title</h3></div>
+        <div class="contentbox"><h3>Contact Information</h3></div>
+    </main>
+    
+<!-- FOOTER HERE -->   
+    <footer>
+        <p>&copy; 2021 Drift Weather | Margaret Williams </p>
+        <p><span id="currentDate"></span></p>
+    </footer>
+    
+<script src="js/scripts.js"></script>
+</body>
+</html>
