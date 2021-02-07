@@ -1,11 +1,14 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
-html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-}* {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+header {
+    background-color: #004e98;
+    color: white;
+    padding: .8rem 2%;
+    text-align: center;
 }
 
 img {
@@ -17,107 +20,34 @@ img {
     padding: 5px;
 }
 
-.heroImage {
-    width: 100%;
-}
-
-.footerMap {
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-.articleImage {
-    width: 100%;
-    order: 2;
-}
-  
-header {
-    background-color: #004E98;
-    color: white;
-    margin: 0 auto;
-}
-
 footer {
-    background-color: #004E98;
+    background-color: #004e98;
     color: white;
-}
-
-header h3 {
-    line-height: 140%;
-    padding-bottom: 10px;
-}
-   
-main {
-    background-color: #EBEBEB;
-    font-family: "Secular One", sans-serif;
-    font-size: 16px;
-}
-
-.contentbox {
-    display: block;
-    margin: 10px auto;
-    border: 1px dashed #000;
-    padding: 15px;
-    background-color: #c0c0c0;
-    color: black;
-    font-style: italic;
-    font-family: 'Secular One', sans-serif;
-}
-
-.show {
-    display: none;
-}
-
-h1 {
-    font-family: "Cinzel", serif;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding-top: 10px;
-}
-
-h2 {
-    margin-left: 10px;
-    font-family: "Cinzel", serif;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding-top: 10px;
-}
- 
-h3 {
-    font-family: "Cinzel", serif;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding-top: 10px;
-}
- 
-.summary {
-    margin: 25px;
-}
-   
-.forecast {
-    border: 3px solid black;
-    margin-bottom: 10px;
-}
-
-.forecast article {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-}
-  
-.forecastTitle {
-    background-color: #344f61;
-    color: white;
-    margin: 0;
+    padding: .8rem 2%;
+    font-family: 'Cinzel', serif;
     text-align: center;
-    padding: 3rem;
-    border-bottom: 3px solid black;
 }
-  
-nav ul.hide {
-    display: none;
+
+main h2 {
+    text-align: center;
+}
+
+main {
+    background-color: #ebebeb;
+    padding: .8rem 2%;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: white;
+}
+
+nav {
+    background-color: #3a6ea5;
+    font-family: 'Secular One', sans-serif;
 }
 
 nav ul {
@@ -126,96 +56,50 @@ nav ul {
     margin: 0;
 }
 
-nav {
-    background-color: #3A6EA5;
-    font-family: "Secular One", sans-serif;
-}
-
 nav ul li a {
     display: block;
-    padding: 0.8rem 2%;
+    padding: .8rem 2%;
     text-decoration: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    color: #000;
+    border-top: 1px solid rgba(0,0,0,0.3)
 }
 
-nav a {
-    color: white;
+nav ul li.active a{
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
 }
 
-nav ul li a.active {
-    background-color: #FF6700;
-    color: white;
+nav ul li a:hover {
+    background-color: #ff6700;
 }
 
-nav a:hover {
-    background-color: #C0C0C0;
+nav ul.hide {
+    display: none;
 }
 
-nav button {
-    margin: 0.2rem 2%;
-    background-color: white;
-    border: none;
-    font-size: 2rem;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    border-radius: 5px;
-    margin: 0;
-}
-  
-.bottom {
-    text-align: center;
-    padding: 2px;
-    padding-top: 5px;
+.contentbox {
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed #ff6700;
+    padding: 15px;
+    background-color: #c0c0c0;
+    color: black;
+    font-family: 'Secular One', sans-serif;
 }
 
-.bottom a {
-    background-color: #3A6EA5;
-    color: white;
-    padding: 5px;
-    text-decoration: none;
-    border-radius: 5px;
+h1 {
+    font-family: 'Cinzel', serif;
 }
 
-.bottom a:hover {
-    background-color: white;
-    color: #3A6EA5;
-    border-radius: 5px;
-}
-   
-.contact {
-    margin-left: 3.5rem;
-    padding-top: 20px;
-    padding-bottom: 10px;
+h2 {
+    font-family: 'Cinzel', serif;
 }
 
-.contact h3 {
-    padding-bottom: 10px;
-    font-size: 1.2rem;
-}
 
-  .contact p {
-    line-height: 50%;
-}
 
-.contact p img {
-    margin-right: 1rem;
-}
-
-.mail {
-    width: 30px;
-    filter: invert(100);
-}
-
-.phone {
-    width: 30px;
-    filter: invert(100%);
-}
-  
- 
+/*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
-  
