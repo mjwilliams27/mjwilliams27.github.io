@@ -23,6 +23,11 @@ header {
     width: 40px;
 }
 
+.hero {
+    width: 100%;
+    height: auto;
+}
+
 footer {
     background-color: #004e98;
     color: white;
