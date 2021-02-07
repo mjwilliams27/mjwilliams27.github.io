@@ -28,6 +28,42 @@ header {
     height: auto;
 }
 
+.herodiv {
+    position: relative;
+    margin: 5px auto;
+}
+
+.weathersummary {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(58,110,165,0.8);
+    padding: 10px;
+    border: 2px solid #004e98;
+    box-shadow: 0 0 30px #777;
+    color: white;
+    font-family: 'Secular One', sans-serif;
+    
+}
+
+.weathersummary h3 {
+    border-bottom: 1px solid white;
+}
+
+.weather {
+    display: flex;
+    line-height: 0.7em;
+}
+
+.label p {
+    text-align: end;
+    padding-right: 5px;
+}
+
+.value p {
+    color: #ff6700;
+}
+
 footer {
     background-color: #004e98;
     color: white;
