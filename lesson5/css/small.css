@@ -64,6 +64,21 @@ header {
     color: #ff6700;
 }
 
+.articlebox {
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: #c0c0c0;
+    color: black;
+    font-family: 'Secular One', sans-serif;
+}
+
+.article {
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+}
+
 footer {
     background-color: #004e98;
     color: white;
