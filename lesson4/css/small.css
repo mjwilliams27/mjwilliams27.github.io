@@ -47,21 +47,20 @@ nav button {
 nav {
     background-color: #3a6ea5;
     font-family: 'Secular One', sans-serif;
-    color: white;
+
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    color: white;
 }
 
 nav ul li a {
     display: block;
     padding: .8rem 2%;
     text-decoration: none;
-    color: #000;
+    color: white;
     border-top: 1px solid rgba(0,0,0,0.3)
 }
 
@@ -72,6 +71,7 @@ nav ul li.active a{
 
 nav ul li a:hover {
     background-color: #ff6700;
+    color: black;
 }
 
 nav ul.hide {
