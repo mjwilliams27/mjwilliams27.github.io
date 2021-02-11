@@ -79,6 +79,19 @@ header {
     max-width: 450px;
 }
 
+.forecast {
+    
+}
+
+.days {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.forecast p {
+    background-color: #3a6ea5;
+}
+
 footer {
     background-color: #004e98;
     color: white;
