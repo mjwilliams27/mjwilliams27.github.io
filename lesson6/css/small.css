@@ -1,0 +1,184 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+header {
+    background-color: #004e98;
+    color: white;
+    padding: .8rem 2%;
+}
+
+.logo {
+    width: 100px;
+    float: left;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.social {
+    width: 40px;
+}
+
+.hero {
+    width: 100%;
+    height: auto;
+}
+
+.herodiv {
+    position: relative;
+    margin: 5px auto;
+}
+
+.weathersummary {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(58,110,165,0.8);
+    padding: 10px;
+    border: 2px solid #004e98;
+    box-shadow: 0 0 30px #777;
+    color: white;
+    font-family: 'Secular One', sans-serif;
+    
+}
+
+.weathersummary h3 {
+    border-bottom: 1px solid white;
+}
+
+.weather {
+    display: flex;
+    line-height: 0.7em;
+}
+
+.label p {
+    text-align: end;
+    padding-right: 5px;
+}
+
+.value p {
+    color: #ff6700;
+}
+
+.articlebox {
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: #c0c0c0;
+    color: black;
+    font-family: 'Secular One', sans-serif;
+}
+
+.article {
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+}
+
+.forecast {
+    
+}
+
+.days {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.forecast p {
+    background-color: #3a6ea5;
+}
+
+footer {
+    background-color: #004e98;
+    color: white;
+    padding: .8rem 2%;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+}
+
+main h2 {
+    text-align: center;
+}
+
+main {
+    background-color: #ebebeb;
+    padding: .8rem 2%;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: white;
+}
+
+nav {
+    background-color: #3a6ea5;
+    font-family: 'Secular One', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #000;
+    border-top: 1px solid rgba(0,0,0,0.3)
+}
+
+nav ul li.active a{
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: #ff6700;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+.contentbox {
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed #ff6700;
+    padding: 15px;
+    background-color: #c0c0c0;
+    color: black;
+    font-family: 'Secular One', sans-serif;
+}
+
+.contactinfo {
+    border: 1px dashed #ff6700;
+    padding: 15px;
+    font-family: 'Secular One', sans-serif;
+    background-color: rgba(255,103,0,0.2);
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+}
+
+h2 {
+    font-family: 'Cinzel', serif;
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
