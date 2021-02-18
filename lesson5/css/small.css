@@ -85,23 +85,15 @@ section.forecast {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-}
-
-.days {
-    color: white;
     text-align: center;
     border: 1px solid #aaa;
 }
 
-.weathericon {
-    
-}
-
-.weathericon img {
+section.forecast img {
+    width: 70%;
+    height: auto;
     border: 1px solid black;
     border-radius: 20px;
-    width: 70%
-    height: auto;
     background-color: lightgray;
 }
 
