@@ -72,7 +72,7 @@ header {
     font-family: 'Secular One', sans-serif;
 }
 
-.article {
+figure.articlephoto {
     float: right;
     width: 100%;
     height: auto;
