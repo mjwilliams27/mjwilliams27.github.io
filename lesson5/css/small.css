@@ -79,7 +79,7 @@ header {
     max-width: 450px;
 }
 
-.forecast {
+section.forecast {
     padding-top: 20px;
     padding-bottom: 30px;
     display: grid;
