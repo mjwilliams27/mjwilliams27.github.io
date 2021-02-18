@@ -105,10 +105,12 @@ section.forecast img {
     border: 1px solid #aaa;
     border-radius: 20px;
     background-color: lightgray;
+    margin-top: 20px;
 }
 
 .forecast p {
-    background-color: #3a6ea5;
+    font-family: 'Secular One', sans-serif;
+    font-size: 25px;
 }
 
 footer {
