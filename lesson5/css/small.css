@@ -73,7 +73,6 @@ header {
 }
 
 figure.articlephoto {
-    float: right;
     width: 80%;
     height: auto;
     max-width: 450px;

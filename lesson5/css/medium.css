@@ -1,21 +1,11 @@
 /* 35em is also 560px when basefont is 16px */
 @media only screen and (min-width: 35rem) {
 
-    .articlegrid {
     
+    figure.articlephoto {
+        float: right;
     }
-    
-    .articlegrid p {
-        text-align: left;
-    }
-    
-    .articlegrid img {
-        max-width: 450px;
-        width: 100%;
-        height: auto;
-        align-content: space-around;
-    }
-    
+
     nav ul {
         display: flex;
         justify-content: space-around;
