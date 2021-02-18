@@ -89,6 +89,12 @@ section.forecast {
     border: 1px solid #aaa;
 }
 
+section.forecast div h5 {
+    background-color: #004e98;
+    margin: 0;
+    padding: 1rem 0;
+}
+
 section.forecast img {
     width: 70%;
     height: auto;
