@@ -80,28 +80,28 @@ header {
 }
 
 .forecast {
-    
+    padding-top: 20px;
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 .days {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     color: white;
     text-align: center;
+    border: 1px solid #aaa;
 }
 
 .weathericon {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    align-content: center;
+    
 }
 
 .weathericon img {
     border: 1px solid black;
     border-radius: 20px;
-    width: 100%;
+    width: 70%
     height: auto;
-    max-width: 70px;
     background-color: lightgray;
 }
 
