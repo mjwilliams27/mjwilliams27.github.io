@@ -74,9 +74,10 @@ header {
 
 figure.articlephoto {
     float: right;
-    width: 100%;
+    width: 80%;
     height: auto;
     max-width: 450px;
+    margin: 0 0 0 2%;
 }
 
 section.forecast {
