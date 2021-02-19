@@ -64,6 +64,21 @@ header {
     color: #ff6700;
 }
 
+div.showme {
+    display: block;
+}
+
+div.hideme {
+    display: none;
+}
+
+div#message {
+    background-color: yellow;
+    color: black;
+    padding: 0.8rem 2%;
+    text-align: center;
+}
+
 .articlebox {
     margin: 10px auto;
     padding: 15px;
@@ -78,11 +93,7 @@ figure.articlephoto {
 }
 
 section.forecast {
-    padding-bottom: 10px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    text-align: center;
+    display: none;
 }
 
 section.forecast div h4 {
