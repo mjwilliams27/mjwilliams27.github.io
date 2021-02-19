@@ -64,8 +64,22 @@ header {
     color: #ff6700;
 }
 
-.articlebox {
+div.showme {
     display: block;
+}
+
+div.hideme {
+    display: none;
+}
+
+div#message {
+    background-color: yellow;
+    color: black;
+    padding: 0.8rem 2%;
+    text-align: center;
+}
+
+.articlebox {
     margin: 10px auto;
     padding: 15px;
     background-color: #c0c0c0;
@@ -73,23 +87,39 @@ header {
     font-family: 'Secular One', sans-serif;
 }
 
-.article {
-    width: 100%;
+figure.articlephoto {
+    margin: 0 0 0 2%;
+    display: flex;
+}
+
+section.forecast {
+    display: none;
+}
+
+section.forecast div h4 {
+    background-color: #3a6ea5;
+    color: white;
+    margin: 2px;
+    padding: .8rem 2%;
+    font-family: 'Secular One', sans-serif;
+}
+
+section.forecast div {
+    border: 1px solid #aaa;
+}
+
+section.forecast img {
+    width: 70%;
     height: auto;
-    max-width: 450px;
-}
-
-.forecast {
-    
-}
-
-.days {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    border: 1px solid #aaa;
+    border-radius: 20px;
+    background-color: lightgray;
+    margin-top: 20px;
 }
 
 .forecast p {
-    background-color: #3a6ea5;
+    font-family: 'Secular One', sans-serif;
+    font-size: 25px;
 }
 
 footer {
@@ -132,7 +162,7 @@ nav ul li a {
     display: block;
     padding: .8rem 2%;
     text-decoration: none;
-    color: #000;
+    color: white;
     border-top: 1px solid rgba(0,0,0,0.3)
 }
 
@@ -143,6 +173,7 @@ nav ul li.active a{
 
 nav ul li a:hover {
     background-color: #ff6700;
+    color: black;
 }
 
 nav ul.hide {
@@ -173,8 +204,6 @@ h1 {
 h2 {
     font-family: 'Cinzel', serif;
 }
-
-
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {

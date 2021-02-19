@@ -32,6 +32,7 @@
      
 </head>
 <body>
+    <div id="message">"Saturday = Preston Pancakes in the park! 9:00 am Saturday at the city park pavilion."</div>
 <!-- HEADER HERE -->
 	<header>
         <img class="logo" src="images/iconfinder_Anchor_boat_anchor_nautical_navigational_sea_4908117.png" alt="Drift Weather anchor logo">
@@ -55,47 +56,67 @@
     
     
 <!-- CONTENT HERE -->
-    <main>
+    <main class="clearfix">
         <h1>Preston Idaho</h1>
             <div class="herodiv">
                 <img class="hero" src="images/idaho_leaves_closeup.jpg" alt="Leaves in Idaho">
-                <div class="weathersummary">
+                <section class="weathersummary">
                     <h3>Weather Summary</h3>
-                    <section class="weather">
-                    <div class="label">
-                        <p>Currently: </p>
-                        <p>Temperature: </p>
-                        <p>Humidity: </p>
-                        <p>Precipitation: </p>
-                        <p>Wind Speed: </p>
+                    <div class="weather">
+                        <div class="label">
+                            <p>Currently: </p>
+                            <p>Temperature: </p>
+                            <p>Humidity: </p>
+                            <p>Precipitation: </p>
+                            <p>Wind Speed: </p>
+                        </div>
+                        <div class="value">
+                            <p> Sunny</p>
+                            <p> 76&deg;</p>
+                            <p> 69%</p>
+                            <p> 0 inches</p>
+                            <p> 5 mph</p>
+                        </div>
                     </div>
-                    <div class="value">
-                        <p> Sunny</p>
-                        <p> 76&deg;</p>
-                        <p> 69%</p>
-                        <p> 0 inches</p>
-                        <p> 5 mph</p>
-                    </div>
-                    </section>
-                </div>
+                </section>
             </div>
-        <div class="forecast">
-            <h2>Five Day Forecast</h2>
-            <div class="days">
-                <p class="day1">Wed</p>
-                <p class="day2">Thur</p>
-                <p class="day3">Fri</p>
-                <p class="day4">Sat</p>
-                <p class="day5">Sun</p>
+        <h2>Five Day Forecast</h2>
+        <section class="forecast">
+            <div>
+                <h4>Wed</h4>
+                <img src="images/partly_cloudy_icon.png" alt="Partly cloudy icon">
+                <p>65&deg;</p>
             </div>
-        </div>
-        <div class="articlebox">
-            <h2>Article Title</h2>
-            <div class="articlegrid">
+            <div>
+                <h4>Thur</h4>
+                <img src="images/sunny_icon.png" alt="Sunny icon">
+                <p>72&deg;</p>
+            </div>
+            <div>
+                <h4>Fri</h4>
+                <img src="images/sunny_icon.png" alt="Sunny icon">
+                <p>75&deg;</p>
+            </div>
+            <div>
+                <h4>Sat</h4>
+                <img src="images/cloudy_icon.png" alt="Cloudy icon">
+                <p>60&deg;</p>
+            </div>
+            <div>
+                <h4>Sun</h4>
+                <img src="images/rainy_icon.png" alt="Rainy icon">
+                <p>54&deg;</p>
+            </div>
+        </section>
+        <div>
+            <section class="articlebox">
+                <h2>Article Title</h2>
+                <figure class="articlephoto">
+                    <img src="images/idaho_lake_picture.jpg" alt="Idaho lake picture">
+                </figure>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolorem id quaerat corporis odit labore, incidunt deleniti nam blanditiis dolorum, magni accusamus quo, magnam recusandae dolore modi animi repellendus placeat. Sequi molestias vero soluta perferendis expedita dolor numquam sit. Facilis, ab dolores? Eaque dolorum tenetur distinctio exercitationem ex sequi veniam sit totam, fugit iure. Nam expedita eligendi provident fugit delectus. Similique illum consectetur natus cumque pariatur alias animi eaque, quam molestias iusto dolorem, quas, explicabo quaerat hic obcaecati. Natus tenetur numquam earum! Molestias autem quos delectus dolorum nesciunt tenetur velit! Pariatur nam ea, est, voluptas debitis, porro eum culpa provident nisi temporibus dolores totam quia. Doloremque, accusantium reiciendis nihil doloribus quis libero maiores natus illum ex quos accusamus error aspernatur.
-                </p>
-                <img class="article" src="images/idaho_lake_picture.jpg" alt="Idaho lake picture">
-            </div>
+                </p> 
+            </section>
         </div>
         <div class="contactinfo">
             <h2>Contact Information</h2>
@@ -110,6 +131,9 @@
             <img class="social" src="images/pinterest_icon.png" alt="Pinterest Icon">
             <img class="social" src="images/twitter_icon.png" alt="Twitter Icon">
             <img class="social" src="images/whatsapp_icon.png" alt="Whatsapp Icon">
+            <figure class="map">
+                <div><iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Preston,%20Idaho+(Preston,%20Idaho)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.maps.ie/route-planner.htm"></a></div>
+            </figure>
         </div>
     </main>
     

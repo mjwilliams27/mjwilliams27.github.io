@@ -27,3 +27,19 @@ const year = todaysdate.getFullYear();
 const currentDate = dayName + ", " + todaysdate.getDate() + " " + monthName + " " + year;
 const options = {weekday: 'long', month: 'long', day: 'numeric', year: 'numeric'};
 document.getElementById("currentDate").textContent = currentDate;
+
+
+const today = new Date();
+console.log(today);
+
+const dayNumber = today.getDay();
+console.log(dayNumber);
+
+const element = document.getElementById("message");
+
+if (dayNumber == 5) {
+    element.classList.add("showme");
+} 
+else {
+    element.classList.add("hideme");
+}
