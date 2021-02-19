@@ -6,6 +6,11 @@
         float: right;
     }
 
+    figure.map {
+        float: right;
+        margin: 0 0 0 2%;
+    }
+
     nav ul {
         display: flex;
         justify-content: space-around;
