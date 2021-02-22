@@ -7,3 +7,7 @@ article img[data-src] {
     transition: filter 0.5s;
   }
 
+main {
+    display: grid;
+    margin: auto;
+}
