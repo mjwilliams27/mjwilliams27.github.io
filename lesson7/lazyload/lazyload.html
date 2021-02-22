@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Lazy Loading Page">
+<meta name="author" content="Margaret Williams">
+
+<title>Lazy Load Images</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- STYLE SHEETS -->
+   
+</head>
+
+<body>
+<!-- HEADER HERE -->
+	<header>
+        <h1>Lazy Load Images</h1>
+    </header>
+   
+<!-- CONTENT HERE -->
+    <main>
+        <picture><img src="images/placeholder-image.jpg" data-src="images/leopard_3.jpg"></picture>
+        <picture><img src="images/placeholder-image.jpg" data-src="images/lion_1.jpg"></picture>
+        <picture><img src="images/placeholder-image.jpg" data-src="images/bobcat_1.jpg"></picture>
+        <picture><img src="images/placeholder-image.jpg" data-src="images/leopard_1.jpg"></picture>
+        <picture><img src="images/placeholder-image.jpg" data-src="images/tiger_1.jpg"></picture>
+    </main>
+    
+<!-- FOOTER HERE -->   
+    <footer>
+        <p>&copy; 2021 | Margaret Williams </p>
+        <p><span id="currentDate"></span></p>
+    </footer>
+    
+</body>
+</html>
